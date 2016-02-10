@@ -160,7 +160,7 @@ public class Calculation_On_EmployList_CSV_Beta {
 		tm[3] = SalaryToString(TotalSalary, 365);
 		tm[2] = SalaryToString(TotalSalary, 52);
 		tm[1] = SalaryToString(TotalSalary, 12);
-		tm[0] = SalaryToString(TotalSalary, 1);;
+		tm[0] = SalaryToString(TotalSalary, 1);
 		String form = "%-14s %1s %7s %7s %9s %10s %11s %15s %n";
 		System.out.format(form, GroupName, tm[6], tm[5], tm[4], tm[3], tm[2], tm[1], tm[0]);
 	}

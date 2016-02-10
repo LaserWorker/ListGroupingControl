@@ -209,6 +209,7 @@ public class ListGroupGenerator {
 		System.out.println( "Starting List for part 'e' ...");
 		String form = "%-14s %6s %6s %6s %9s %10s %11s %15s %n";
 		String m[] = {"Earnings Per>","Second","Minute","Hour","Day","Week","Month","Year"};
+		System.out.format(form, m[0], m[1], m[2], m[3], m[4], m[5], m[6], m[7]);
 
 		SalarySums = new ArrayList<Double>();
 		double SalaryTest = 0.0;

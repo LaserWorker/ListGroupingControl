@@ -1,12 +1,12 @@
 /**
 *   By:Luke Burgess
-*   Second Try
-*   To Run Type: "Calculation_On_EmployList_CSV_Beta [File Name] [Optional Salary Limit]"
+*   Second Try A Beta Program
+*   To Run Type: "ListGroupGenerator [File Name] [Optional Salary Limit]"
 */
 import java.io.*;
 import java.util.*;
 
-public class Calculation_On_EmployList_CSV_Beta { 
+public class ListGroupGenerator { 
 	
 	//Incase Error cannot be given or known.
 	public static String ProgramError = "Unknown"; 
